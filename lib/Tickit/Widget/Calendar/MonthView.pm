@@ -32,6 +32,7 @@ BEGIN {
 		weekday_fg  => 'white',
 		monthday_fg => 'white',
 		today_fg    => 'white',
+		today_bg    => 'black',
 		today_b     => 1;
 }
 
@@ -156,5 +157,5 @@ Tom Molesworth <cpan@perlsite.co.uk>
 
 =head1 LICENSE
 
-Copyright Tom Molesworth 2013. Licensed under the same terms as Perl itself.
+Copyright Tom Molesworth 2013-2014. Licensed under the same terms as Perl itself.
 
