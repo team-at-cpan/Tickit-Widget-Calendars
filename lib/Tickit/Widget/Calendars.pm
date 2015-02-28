@@ -1,5 +1,5 @@
 package Tickit::Widget::Calendars;
-# ABSTRACT: 
+# ABSTRACT: render calendar views for Tickit
 use strict;
 use warnings;
 
@@ -7,21 +7,23 @@ our $VERSION = '0.001';
 
 =head1 NAME
 
-Tickit::Widget::Calendars -
-
-=head1 SYNOPSIS
+Tickit::Widget::Calendars - base distribution for various calendar-related things
 
 =head1 DESCRIPTION
 
-=head1 METHODS
+Calendar implementations for Tickit.
+
+=over 4
+
+=item * L<Tickit::Widget::Calendar::MonthView>
+
+=back
 
 =cut
 
 1;
 
 __END__
-
-=head1 SEE ALSO
 
 =head1 AUTHOR
 
